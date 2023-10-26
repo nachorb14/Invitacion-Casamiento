@@ -4,7 +4,7 @@
     }
 
     body {
-        font-family: "Century Gothic";
+        font-family: 'Gothic A1', sans-serif;
         background-image: url(imagenes/fondo.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -22,7 +22,7 @@
     }
 
     .titulo {
-        font-family: "Edwardian Script ITC";
+        font-family: 'Pinyon Script', cursive;
         font-size: 3.5rem;
     }
 
