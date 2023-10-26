@@ -4,7 +4,7 @@
     }
 
     body {
-        font-family: 'Gothic A1', sans-serif;
+        font-family: 'Didact Gothic', sans-serif;
         background-color: #d4fddd;
     }
 
@@ -20,6 +20,7 @@
     .titulo {
         font-family: 'Great Vibes', cursive;
         font-size: 3rem;
+        color: #08492b;
     }
 
     .parrafo {
