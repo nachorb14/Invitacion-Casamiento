@@ -105,3 +105,109 @@
         margin-top: 2rem;
     }
 }
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #d4fddd;
+}
+
+.titulo-principal {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #08492b;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.marco-superior {
+    margin-bottom: 1rem;
+}
+
+.marco-inferior {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.fecha{
+    color: #08492b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mes {
+    margin-bottom: 0.5rem;
+}
+
+.anio {
+    margin-top: 0.5rem;
+}
+
+.dia {
+    font-size: 2rem;
+}
+
+.parrafo-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.ubicacion {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fabri {
+    margin-right: 1rem;
+}
+
+.rocio {
+    margin-left: 1rem;
+}
+
+.parrafo-cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
