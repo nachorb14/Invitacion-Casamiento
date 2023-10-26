@@ -1,12 +1,109 @@
-body {
-    font-family: "Century Gothic", sans-serif;
-    background-image: url(imagenes/fondo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+    }
 
-.titulo {
-    font-family: "Edwardian Script ITC";
+    body {
+        font-family: "Century Gothic";
+        background-image: url(imagenes/fondo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*background-attachment: fixed;*/
+    }
+
+    .titulo-principal {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titulo {
+        font-family: "Edwardian Script ITC";
+        font-size: 3.5rem;
+    }
+
+    .parrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .marco-superior {
+        margin-bottom: 1rem;
+    }
+
+    .marco-inferior {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .fecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mes {
+        margin-bottom: 0.5rem;
+    }
+
+    .anio {
+        margin-top: 0.5rem;
+    }
+
+    .dia {
+        font-size: 2rem;
+    }
+
+    .parrafo-dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .ubicacion {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+    }
+
+    .contactos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .fabri {
+        margin-right: 1rem;
+    }
+
+    .rocio {
+        margin-left: 1rem;
+    }
+
+    .parrafo-cuatro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
 }
