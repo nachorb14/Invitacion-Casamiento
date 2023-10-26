@@ -1,0 +1,12 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-image: url(imagenes/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo {
+    font-family: "Edwardian Script ITC";
+}
